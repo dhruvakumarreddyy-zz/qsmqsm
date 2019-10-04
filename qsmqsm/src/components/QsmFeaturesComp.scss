@@ -1,0 +1,43 @@
+.FeaturesCompDiv{
+    height: 695px;
+    width: 100%;
+    border:1px solid red;
+    background-image: url('../assets/images/featuresCompBG.png');
+    margin: 30px 0px 30px 0px;
+    padding: 60px 67px 0px 67px;
+
+    h2{
+        color: white;
+        font-size: 32px;
+       
+    }
+    table{
+        width: 100%;
+        background-color: white;
+        height: 260px;
+        table-layout: fixed ;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        margin: 40px 0px 40px 0px;
+        text-align: center;
+        
+    }
+    table,td,th{
+        border: 1px solid #b0b0b0;
+        
+    }
+    .green{
+        background-color: #23d665;
+    }
+}
+
+.FeaturesCompDecp{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:30px;
+    color: white;
+    margin: 30px 0px 30px 0px;
+    .FeaturesCompElements{
+        width: 100%;
+    }
+}

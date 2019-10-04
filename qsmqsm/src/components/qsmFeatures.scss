@@ -1,0 +1,22 @@
+.qsmFeaturesDiv{
+    padding: 0px 60px 0px 60px;
+    margin: 30px 0px 0px 0px;
+}
+.featuresGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    h2{
+        font-size: 36px;
+    }
+    p{
+        font-size: 18px;
+    }
+}
+.featuresElements{
+    width: 500px;
+    height: 300px;
+    margin: 30px 0px 0px 0px;
+}
+.Fimg{
+border: 1px solid black;
+}
